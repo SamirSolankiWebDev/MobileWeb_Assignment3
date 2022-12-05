@@ -2,3 +2,39 @@ html, body{
     margin: 0;
     padding: 0;
 }
+
+/* header */
+.navbar-dark{
+  background-color: red;
+}
+.sec-breadcrum{
+  background-color: #ffebee;
+}
+.sec-breadcrum .breadcrumb{
+  margin-bottom: 0;
+}
+
+/* bussines page */
+.sec-about .container .row .col-md-5 img,
+.sec-img .container .row div img{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+.sec-featured .container .row .icon{
+  padding-top: 4px;
+  margin-right: 10px;
+}
+
+.accordion-button:not(.collapsed){
+  color: red;
+  background-color: #ffebee;
+}
+
+
+/* media query */
+@media screen and (max-width : 768px){
+  .sec-img .container .row div {
+    margin-bottom: 16px;
+  }
+}
